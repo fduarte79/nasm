@@ -16,11 +16,20 @@
 ```60``` - ```sys_exit``` - sai do programa  
 
 #### Registradores
-RA - *accumulator* (para operações matemáticas)  
-RB - *base* (para endereçamento de memória)  
-RC - *counter* (contador para loops)  
-RD - *data* (IO)  
-SP - *stack pointer*  
-BP - *base pointer*  
-SI - *source index*  
-DI - *destination index*  
+
+```
+| <--------------------------- RAX ---------------------------> | = 64 bits
+                                | <----------- RAX -----------> | = 32 bits
+                                                | <--- EBX ---> | = 16 bits
+                                                        | <AL>  | =  8 bits 
+                                                        | <AH>  | =  8 bits 
+```
+
+```RA``` - *accumulator* (para operações matemáticas)  
+```RB``` - *base* (para endereçamento de memória)  
+```RC``` - *counter* (contador para loops)  
+```RD``` - *data* (IO)  
+```SP``` - *stack pointer*  
+```BP``` - *base pointer*  
+```SI``` - *source index*  
+```DI``` - *destination index*  
