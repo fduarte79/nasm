@@ -1,7 +1,8 @@
 # Básico
 
 #### Instalação/compilação:  
-```sudo apt-get install nasm```  
+*Instalação*: ```sudo apt-get install nasm```  
+*Compilando*```nasm -f elf64 -o hello hello.asm & ld hello.o -o hello & ./hello```
 
 **Comentários**: ```;```  
 
@@ -33,3 +34,5 @@
 ```BP``` - *base pointer*  
 ```SI``` - *source index*  
 ```DI``` - *destination index*  
+
+
