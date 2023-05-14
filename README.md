@@ -1,8 +1,8 @@
 # nasm
 Meus estudos com NaSM
 
-[Básico](basico/basico.md)
-[Exemplo 1 - Hello World!](code/ex1)
+[Básico](basico/basico.md)  
+[Exemplo 1 - Hello World!](code/ex1.asm)
 
 ## Referências
 [NASM](https://www.nasm.us/)   
