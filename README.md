@@ -2,7 +2,7 @@
 Meus estudos com NaSM
 
 [Básico](basico/basico.md)  
-[Exemplo 1 - Hello World!](code/ex1.asm)
+[Exemplo 1 - Hello World!](codes/ex1.asm)
 
 ## Referências
 [NASM](https://www.nasm.us/)   
