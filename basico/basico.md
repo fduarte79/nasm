@@ -1,0 +1,26 @@
+# Básico
+
+#### Instalação/compilação:  
+```sudo apt-get install nasm```  
+
+**Comentários**: ```;```  
+
+#### Sections  
+```.data``` seção de definições para as variáveis (inicialização, declaração de constantes)  
+```.text``` seção destianda para o código
+
+#### [System Calls](https://x64.syscall.sh/)
+```0``` - ```sys_read``` - leitura  
+```1``` - ```sys_write``` - escrita  
+```2``` - ```sys_close``` - fecha  
+```60``` - ```sys_exit``` - sai do programa  
+
+#### Registradores
+RA - *accumulator* (para operações matemáticas)  
+RB - *base* (para endereçamento de memória)  
+RC - *counter* (contador para loops)  
+RD - *data* (IO)  
+SP - *stack pointer*  
+BP - *base pointer*  
+SI - *source index*  
+DI - *destination index*  
