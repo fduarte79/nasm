@@ -2,7 +2,7 @@
 
 #### Instalação/compilação:  
 *Instalação*: ```sudo apt-get install nasm```  
-*Compilando*```nasm -f elf64 -o hello hello.asm & ld hello.o -o hello & ./hello```
+*Compilando*```nasm -f elf64 -o arquivo.o arquivo.asm & ld arquivo.o -o arquivo & ./arquivo```
 
 **Comentários**: ```;```  
 
